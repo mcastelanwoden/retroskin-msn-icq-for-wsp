@@ -4,8 +4,8 @@
   "description": "WhatsApp Web vestido de MSN Messenger 7.5 o ICQ 2000b (solo estético)",
   "main": "out/main/index.js",
   "author": {
-    "name": "Lisandro Arrigoni",
-    "email": "72736792+Lisandro46@users.noreply.github.com"
+    "name": "mcastelanwoden",
+    "email": "325451388+mcastelanwoden@users.noreply.github.com"
   },
   "license": "MIT",
   "private": true,
@@ -25,7 +25,7 @@
     "web:assets": "electron scripts/capture-web.mjs"
   },
   "build": {
-    "appId": "com.lisandro.retro-messenger",
+    "appId": "com.mcastelanwoden.retro-messenger",
     "productName": "Retro Messenger para WhatsApp",
     "directories": {
       "output": "dist",
@@ -104,7 +104,7 @@
       "executableName": "retro-messenger",
       "category": "Network;InstantMessaging",
       "synopsis": "WhatsApp Web con skins de MSN Messenger 7.5 e ICQ 2000b",
-      "maintainer": "Lisandro Arrigoni <72736792+Lisandro46@users.noreply.github.com>",
+      "maintainer": "mcastelanwoden <325451388+mcastelanwoden@users.noreply.github.com>",
       "artifactName": "Retro-Messenger-linux-${arch}.${ext}"
     }
   },
@@ -116,9 +116,9 @@
     "typescript": "^5.9.3",
     "vite": "^7.1.0"
   },
-  "homepage": "https://github.com/Lisandro46/retroskin-msn-icq-for-wsp",
+  "homepage": "https://github.com/mcastelanwoden/retroskin-msn-icq-for-wsp",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Lisandro46/retroskin-msn-icq-for-wsp.git"
+    "url": "https://github.com/mcastelanwoden/retroskin-msn-icq-for-wsp.git"
   }
 }

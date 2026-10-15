@@ -472,7 +472,7 @@ if (!app.requestSingleInstanceLock()) {
     win.show()
     win.focus()
   })
-  if (process.platform === 'win32') app.setAppUserModelId('com.lisandro.retro-messenger')
+  if (process.platform === 'win32') app.setAppUserModelId('com.mcastelanwoden.retro-messenger')
   app.whenReady().then(() => {
     ensureSoundsDir()
     registerShellEvents()

@@ -1,8 +1,8 @@
 # Retro Messenger para WhatsApp
 
-**WhatsApp Web vestido de MSN Messenger 7.5 o de ICQ 2000b**, con zumbido, sonidos, avisos emergentes y todos los chiches. Hermano nostálgico de [Winamp Remote para TIDAL](https://github.com/Lisandro46/winamp-tidal).
+**WhatsApp Web vestido de MSN Messenger 7.5 o de ICQ 2000b**, con zumbido, sonidos, avisos emergentes y todos los chiches. Inspirado en la nostalgia de los mensajeros clásicos.
 
-**Página oficial y descargas: [retro.trincherai.com](https://retro.trincherai.com)**
+**Descargas: [GitHub Releases](https://github.com/mcastelanwoden/retroskin-msn-icq-for-wsp/releases)**
 
 > Proyecto de fan, gratis y de código abierto. **Todo es estético**: WhatsApp funciona exactamente igual que en el navegador. No está afiliado a WhatsApp, Meta, Microsoft ni ICQ. Los íconos son imitaciones hechas a mano. Los sonidos son los originales de MSN e ICQ, de sus respectivos dueños, incluidos solo por nostalgia ([créditos](resources/sounds/CREDITOS.md)).
 
@@ -12,20 +12,20 @@ Hay versión para **Windows**, **Mac** y **Linux**.
 
 ### Windows
 
-#### ⬇️ [Descargar el instalador para Windows](https://github.com/Lisandro46/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-Setup.exe)
+#### ⬇️ [Descargar el instalador para Windows](https://github.com/mcastelanwoden/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-Setup.exe)
 
 1. Abrí el archivo que se descargó. Se instala solo, sin preguntas ni permisos de administrador, y crea un acceso directo en el escritorio.
 2. Si Windows muestra **"Windows protegió su PC"**, tocá **Más información → Ejecutar de todas formas**. Aparece porque la app no está firmada: un certificado cuesta cientos de dólares por año. El código es público y el instalador lo arma GitHub directamente desde este repo.
 3. Se abre Messenger con un código QR. En tu teléfono: **WhatsApp → ⋮ / Configuración → Dispositivos vinculados → Vincular un dispositivo**, y escaneá el código.
 4. ¡Listo! La sesión queda guardada. Para cambiar entre MSN e ICQ: **Herramientas → Skin** (en ICQ: **Main → Change Skin**).
 
-¿No querés instalar nada? Bajate la [versión portable](https://github.com/Lisandro46/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-Portable.exe): la abrís y listo.
+¿No querés instalar nada? Bajate la [versión portable](https://github.com/mcastelanwoden/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-Portable.exe): la abrís y listo.
 
 Requisitos: Windows 10 u 11 (64 bits) y WhatsApp en tu teléfono. Para desinstalar: **Configuración de Windows → Aplicaciones → Retro Messenger para WhatsApp → Desinstalar**.
 
 ### Mac
 
-#### ⬇️ Descargar para [Mac con Apple Silicon (M1, M2, M3…)](https://github.com/Lisandro46/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-mac-arm64.dmg) · [Mac con Intel](https://github.com/Lisandro46/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-mac-x64.dmg)
+#### ⬇️ Descargar para [Mac con Apple Silicon (M1, M2, M3…)](https://github.com/mcastelanwoden/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-mac-arm64.dmg) · [Mac con Intel](https://github.com/mcastelanwoden/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-mac-x64.dmg)
 
 ¿No sabés cuál tenés? **Menú Apple → Acerca de esta Mac**: si dice "Chip Apple", es Apple Silicon.
 
@@ -42,15 +42,15 @@ Requisitos: macOS 12 o más nuevo.
 
 Elegí el formato según tu distribución:
 
-- ⬇️ [**.deb**](https://github.com/Lisandro46/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-linux-amd64.deb) — Ubuntu, Debian, Mint, Pop!_OS. Instalalo con doble clic o desde la terminal, en la carpeta de descargas:
+- ⬇️ [**.deb**](https://github.com/mcastelanwoden/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-linux-amd64.deb) — Ubuntu, Debian, Mint, Pop!_OS. Instalalo con doble clic o desde la terminal, en la carpeta de descargas:
   ```bash
   sudo apt install ./Retro-Messenger-linux-amd64.deb
   ```
-- ⬇️ [**.rpm**](https://github.com/Lisandro46/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-linux-x86_64.rpm) — Fedora, openSUSE:
+- ⬇️ [**.rpm**](https://github.com/mcastelanwoden/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-linux-x86_64.rpm) — Fedora, openSUSE:
   ```bash
   sudo dnf install ./Retro-Messenger-linux-x86_64.rpm
   ```
-- ⬇️ [**AppImage**](https://github.com/Lisandro46/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-linux-x86_64.AppImage) — cualquier distro, sin instalar nada:
+- ⬇️ [**AppImage**](https://github.com/mcastelanwoden/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-linux-x86_64.AppImage) — cualquier distro, sin instalar nada:
   ```bash
   chmod +x Retro-Messenger-linux-x86_64.AppImage
   ./Retro-Messenger-linux-x86_64.AppImage

@@ -292,7 +292,7 @@ Estimación de trabajo, no compromiso: referencia/capturas 0,5–1 día; primera
 
 ## Fuentes de referencia
 
-- [Repositorio y objetivo declarado](https://github.com/Lisandro46/retroskin-msn-icq-for-wsp).
+- [Repositorio y objetivo declarado](https://github.com/mcastelanwoden/retroskin-msn-icq-for-wsp).
 - [Galería MSN Messenger 7.5 inspeccionada](https://msn-messenger-7-5.en.lo4d.com/screenshots): referencias visuales auxiliares; contiene interfaces personalizadas y posibles variantes, no usar como única certificación de build.
 - [Guía de Logitech con capturas y diálogo de versión MSN 7.5](https://www.ophoenix.org/documents/GettingStartedWithVideoConversation.pdf): fuente primaria de uso y capturas.
 - [SimPage, captura identificada como ICQ 2000b](https://simpage.net/interact/activelist.shtml#join): fuente de época utilizada para la composición principal; no certifica la build ni todos los diálogos.

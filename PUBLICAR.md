@@ -1,6 +1,6 @@
-# Publicar retro.trincherai.com
+# Publicar retro.retro-messenger.netlify.app
 
-La página de descarga vive en la carpeta [`web/`](web/) de este repo. Es HTML estático: no hay que compilar nada. Se publica como un sitio aparte en Netlify, así no se mezcla con trincherai.com.
+La página de descarga vive en la carpeta [`web/`](web/) de este repo. Es HTML estático: no hay que compilar nada. Se publica como un sitio aparte en Netlify, así no se mezcla con retro-messenger.netlify.app.
 
 ## 1. Subir la página a Netlify (una sola vez)
 
@@ -9,30 +9,30 @@ La página de descarga vive en la carpeta [`web/`](web/) de este repo. Es HTML e
 3. Arrastrá la carpeta **`web`** (la carpeta entera, no los archivos sueltos) a la zona que dice *Drag and drop your project folder here*.
 4. Cuando termine, andá a **Project configuration → General → Project details → Change project name** y ponele **`retro-trincherai`**. La página queda en `https://retro-trincherai.netlify.app`: abrila y fijate que ande.
 
-## 2. Conectar retro.trincherai.com
+## 2. Conectar retro.retro-messenger.netlify.app
 
 **En Netlify:**
 
 1. En el proyecto `retro-trincherai`: **Domain management → Add a domain**.
-2. Escribí `retro.trincherai.com` y confirmá. Netlify va a decir que falta configurar el DNS: es normal.
+2. Escribí `retro.retro-messenger.netlify.app` y confirmá. Netlify va a decir que falta configurar el DNS: es normal.
 
-**En Namecheap** (ahí está el DNS de trincherai.com):
+**En Namecheap** (ahí está el DNS de retro-messenger.netlify.app):
 
-1. **Domain List → trincherai.com → Manage → Advanced DNS**.
+1. **Domain List → retro-messenger.netlify.app → Manage → Advanced DNS**.
 2. **Add new record**:
 
    | Type | Host | Value | TTL |
    |---|---|---|---|
    | CNAME Record | `retro` | `retro-trincherai.netlify.app` | Automatic |
 
-3. Guardá con el tilde verde. **No toques los registros que ya existen** (los de `@` y `www` son los de trincherai.com).
+3. Guardá con el tilde verde. **No toques los registros que ya existen** (los de `@` y `www` son los de retro-messenger.netlify.app).
 
 **De vuelta en Netlify:**
 
-1. En **Domain management**, al lado de `retro.trincherai.com` tocá **Verify DNS configuration**. Puede tardar entre unos minutos y un par de horas en propagarse.
+1. En **Domain management**, al lado de `retro.retro-messenger.netlify.app` tocá **Verify DNS configuration**. Puede tardar entre unos minutos y un par de horas en propagarse.
 2. En **HTTPS**, Netlify genera el certificado solo. Si no aparece en un rato, tocá **Verify DNS configuration** de nuevo y después **Provision certificate**.
 
-Listo: `https://retro.trincherai.com`.
+Listo: `https://retro.retro-messenger.netlify.app`.
 
 ## 3. Actualizar la página
 
@@ -46,16 +46,16 @@ Funcionan cuando el dominio ya está andando:
 
 | Link | Baja |
 |---|---|
-| `retro.trincherai.com/windows` | Instalador de Windows |
-| `retro.trincherai.com/portable` | Versión portable de Windows |
-| `retro.trincherai.com/mac` | Mac con Apple Silicon |
-| `retro.trincherai.com/mac-intel` | Mac con Intel |
-| `retro.trincherai.com/linux` | .deb (Ubuntu, Debian, Mint) |
-| `retro.trincherai.com/linux-rpm` | .rpm (Fedora) |
-| `retro.trincherai.com/appimage` | AppImage |
-| `retro.trincherai.com/github` | El código |
+| `retro.retro-messenger.netlify.app/windows` | Instalador de Windows |
+| `retro.retro-messenger.netlify.app/portable` | Versión portable de Windows |
+| `retro.retro-messenger.netlify.app/mac` | Mac con Apple Silicon |
+| `retro.retro-messenger.netlify.app/mac-intel` | Mac con Intel |
+| `retro.retro-messenger.netlify.app/linux` | .deb (Ubuntu, Debian, Mint) |
+| `retro.retro-messenger.netlify.app/linux-rpm` | .rpm (Fedora) |
+| `retro.retro-messenger.netlify.app/appimage` | AppImage |
+| `retro.retro-messenger.netlify.app/github` | El código |
 
-## 4. Sumarlo a trincherai.com (con ChatGPT)
+## 4. Sumarlo a retro-messenger.netlify.app (con ChatGPT)
 
 Pegale esto a ChatGPT junto con tu `index.html` de `web-netlify`:
 
@@ -78,8 +78,8 @@ Pegale esto a ChatGPT junto con tu `index.html` de `web-netlify`:
 >
 > **Nota:** No tiene firma digital paga, así que Windows y Mac muestran una advertencia la primera vez. Está explicado paso a paso en la página de descarga.
 >
-> **Link principal:** `<a href="https://retro.trincherai.com" class="caso-link">Descargar y probarlo →</a>`
-> **Segundo link** (mismo estilo): `<a href="https://github.com/Lisandro46/retroskin-msn-icq-for-wsp" target="_blank" rel="noopener" class="caso-link">Ver el código en GitHub →</a>`
+> **Link principal:** `<a href="https://retro.retro-messenger.netlify.app" class="caso-link">Descargar y probarlo →</a>`
+> **Segundo link** (mismo estilo): `<a href="https://github.com/mcastelanwoden/retroskin-msn-icq-for-wsp" target="_blank" rel="noopener" class="caso-link">Ver el código en GitHub →</a>`
 
 ---
 

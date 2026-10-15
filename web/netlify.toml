@@ -1,4 +1,4 @@
-# retro.trincherai.com — static page, no build step.
+# Retro Messenger — static page, no build step.
 [build]
   publish = "."
 
@@ -15,60 +15,60 @@
   [headers.values]
     Cache-Control = "public, max-age=604800"
 
-# Short links to share: retro.trincherai.com/windows, /mac, /linux…
+# Short links to share: /windows, /mac, /linux…
 # They always point to the latest GitHub release.
 [[redirects]]
   from = "/windows"
-  to = "https://github.com/Lisandro46/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-Setup.exe"
+  to = "https://github.com/mcastelanwoden/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-Setup.exe"
   status = 302
 
 [[redirects]]
   from = "/portable"
-  to = "https://github.com/Lisandro46/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-Portable.exe"
+  to = "https://github.com/mcastelanwoden/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-Portable.exe"
   status = 302
 
 [[redirects]]
   from = "/mac"
-  to = "https://github.com/Lisandro46/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-mac-arm64.dmg"
+  to = "https://github.com/mcastelanwoden/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-mac-arm64.dmg"
   status = 302
 
 [[redirects]]
   from = "/mac-intel"
-  to = "https://github.com/Lisandro46/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-mac-x64.dmg"
+  to = "https://github.com/mcastelanwoden/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-mac-x64.dmg"
   status = 302
 
 [[redirects]]
   from = "/linux"
-  to = "https://github.com/Lisandro46/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-linux-amd64.deb"
+  to = "https://github.com/mcastelanwoden/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-linux-amd64.deb"
   status = 302
 
 [[redirects]]
   from = "/linux-rpm"
-  to = "https://github.com/Lisandro46/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-linux-x86_64.rpm"
+  to = "https://github.com/mcastelanwoden/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-linux-x86_64.rpm"
   status = 302
 
 [[redirects]]
   from = "/appimage"
-  to = "https://github.com/Lisandro46/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-linux-x86_64.AppImage"
+  to = "https://github.com/mcastelanwoden/retroskin-msn-icq-for-wsp/releases/latest/download/Retro-Messenger-linux-x86_64.AppImage"
   status = 302
 
 [[redirects]]
   from = "/github"
-  to = "https://github.com/Lisandro46/retroskin-msn-icq-for-wsp"
+  to = "https://github.com/mcastelanwoden/retroskin-msn-icq-for-wsp"
   status = 302
 
-# Winamp Remote (retro.trincherai.com/winamp): same idea, other repo.
+# Winamp Remote: same idea, other repo.
 [[redirects]]
   from = "/winamp/windows"
-  to = "https://github.com/Lisandro46/winamp-tidal/releases/latest/download/Winamp-Remote-Setup.exe"
+  to = "https://github.com/mcastelanwoden/winamp-tidal/releases/latest/download/Winamp-Remote-Setup.exe"
   status = 302
 
 [[redirects]]
   from = "/winamp/portable"
-  to = "https://github.com/Lisandro46/winamp-tidal/releases/latest/download/Winamp-Remote-Portable.exe"
+  to = "https://github.com/mcastelanwoden/winamp-tidal/releases/latest/download/Winamp-Remote-Portable.exe"
   status = 302
 
 [[redirects]]
   from = "/winamp/github"
-  to = "https://github.com/Lisandro46/winamp-tidal"
+  to = "https://github.com/mcastelanwoden/winamp-tidal"
   status = 302

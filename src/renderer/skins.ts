@@ -91,7 +91,7 @@ export function aboutDialog(s: Settings): string {
       <div class="about-logo">${icq ? icqFlower('logo', 64) : msnLogo(64)}</div>
       <h2>Retro Messenger para WhatsApp</h2>
       <p>${icq ? 'ICQ 2000b-style' : 'Estilo MSN Messenger 7.5'} sobre WhatsApp Web.</p>
-      <p class="hint">Proyecto de fan, gratis y de código abierto. Todo es estético: WhatsApp funciona igual que siempre.
+      <p class="hint">Proyecto de fan, gratis y de código abierto por Miguel Castelán. Todo es estético: WhatsApp funciona igual que siempre.
       No está afiliado a WhatsApp, Meta, Microsoft ni ICQ. Íconos y sonidos son imitaciones hechas a mano.</p>
       <div class="actions"><button type="button" data-close class="btn">${icq ? 'OK' : 'Aceptar'}</button></div>
     </div>
